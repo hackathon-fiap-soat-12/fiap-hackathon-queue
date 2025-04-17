@@ -18,7 +18,7 @@ variable "dlq_max_message_size" {
 
 variable "queue_visibility_timeout" {
   type        = number
-  default     = 120
+  default     = 3600
   description = "Queue Visibility Timeout in seconds"
 }
 
